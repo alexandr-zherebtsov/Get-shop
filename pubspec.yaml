@@ -1,0 +1,49 @@
+name: get_shop
+description: G-shop application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core
+  get: ^4.1.4
+  dio: ^4.0.0
+  pretty_dio_logger: ^1.1.1
+
+  # Firebase
+  firebase_core: ^1.1.0
+  firebase_auth: ^1.1.2
+  cloud_firestore: ^1.0.7
+  firebase_storage: ^8.0.5
+
+  # Utils
+  url_launcher: ^6.0.3
+
+  # UI
+  animations: ^2.0.0
+  fluttertoast: ^8.0.6
+  carousel_pro: ^1.0.0
+  decorated_icon: ^1.2.0
+  cupertino_icons: ^1.0.2
+  mask_text_input_formatter: ^2.0.0-nullsafety.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: 'assets/icons/app_icon.png'
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
