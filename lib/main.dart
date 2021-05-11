@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_shop/common/localization.dart';
 import 'package:get_shop/common/theme_data.dart';
+import 'package:get_shop/presentation/binding/global_binding.dart';
 import 'package:get_shop/presentation/router/router.dart';
 
 Future<void> main() async {
@@ -23,6 +24,7 @@ class App extends StatelessWidget {
       initialRoute: AppRoutes.splash,
       defaultTransition: Transition.cupertino,
       theme: AppThemeData.darkTheme,
+      initialBinding: GlobalBinding(),
     );
   }
 }

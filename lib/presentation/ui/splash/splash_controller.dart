@@ -1,17 +1,12 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/common/strings.dart';
-import 'package:get_shop/core/models/user_model.dart';
-import 'package:get_shop/core/services/user_service.dart';
 import 'package:get_shop/core/utils/utils.dart';
 import 'package:get_shop/presentation/router/router.dart';
 
 class SplashController extends GetxController {
   Rx<Color>? bgColor = AppColors.colorWhite.obs;
-  final UserService _userService = UserService();
 
   @override
   Future<void> onInit() async{

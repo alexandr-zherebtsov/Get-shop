@@ -4,16 +4,16 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_shop/common/colors.dart';
 import 'package:get_shop/common/localization.dart';
+import 'package:get_shop/core/data/repositories/auth/auth_repository.dart';
 import 'package:get_shop/core/network/exception_handler.dart';
-import 'package:get_shop/core/services/auth_service.dart';
 import 'package:get_shop/presentation/router/router.dart';
 import 'package:get_shop/presentation/ui/widgets/toast.dart';
 
 class LoginController extends GetxController {
+  final AuthRepository _authRepository = Get.find();
+  final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   final loginFormKey = GlobalKey<FormState>();
   final JsonDecoder _decoder = JsonDecoder();
-  final AuthService _authService = AuthService();
-  final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
 
@@ -24,7 +24,7 @@ class LoginController extends GetxController {
 
   void signInEmailPassword() async {
     try {
-      await _authService.signInEmailPassword(emailController.text, passwordController.text);
+      await _authRepository.signInEmailPassword(emailController.text, passwordController.text);
       if (_firebaseAuth.currentUser != null) {
         Get.offAndToNamed(AppRoutes.splash);
       }

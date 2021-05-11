@@ -79,7 +79,7 @@ class _SplashProgressState extends State<SplashProgress> with SingleTickerProvid
                     maxWidth: 500,
                     maxHeight: 500,
                   ),
-                  child: Image.asset(AssetsPath.imgBigLogo),
+                  child: Image.asset(AssetsPath.icBigLogo),
                 ),
               ],
             ),

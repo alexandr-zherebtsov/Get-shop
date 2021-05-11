@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
 import 'package:get_shop/common/localization.dart';
 import 'package:get_shop/common/reg_exp.dart';
-import 'package:get_shop/common/styles.dart';
 import 'package:get_shop/presentation/ui/login/login_controller.dart';
 import 'package:get_shop/presentation/ui/widgets/behavior.dart';
 import 'package:get_shop/presentation/ui/widgets/main_button.dart';
@@ -100,7 +98,6 @@ class LoginScreen extends GetResponsiveView<LoginController> {
               ),
             ),
           ),
-
       ),
     ),
   );
