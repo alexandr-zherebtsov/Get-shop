@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/common/localization.dart';
+part of widgets;
 
 Widget priceItem(String title) {
   return Container(

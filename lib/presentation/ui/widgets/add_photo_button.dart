@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
+part of widgets;
 
 Widget addPhotoButton(void Function()? onPressed) {
   return Container(

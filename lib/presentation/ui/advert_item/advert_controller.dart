@@ -1,4 +1,4 @@
-import 'package:get/get.dart';
+part of advert;
 
 class AdvertItemController extends GetxController {
 

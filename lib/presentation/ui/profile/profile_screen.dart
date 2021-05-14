@@ -1,16 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/common/localization.dart';
-import 'package:get_shop/core/utils/formatters.dart';
-import 'package:get_shop/presentation/ui/profile/profile_controller.dart';
-import 'package:get_shop/presentation/ui/profile/widgets/profile_icon.dart';
-import 'package:get_shop/presentation/ui/profile/widgets/profile_text.dart';
-import 'package:get_shop/presentation/ui/widgets/alert_dialog.dart';
-import 'package:get_shop/presentation/ui/widgets/behavior.dart';
-import 'package:get_shop/presentation/ui/widgets/headline.dart';
-import 'package:get_shop/presentation/ui/widgets/main_button.dart';
-import 'package:get_shop/presentation/ui/widgets/progress_screen.dart';
+part of profile;
 
 class ProfileScreen extends GetResponsiveView<ProfileController> {
   final String uid;

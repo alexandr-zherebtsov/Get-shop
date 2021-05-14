@@ -1,10 +1,4 @@
-import 'dart:convert';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/core/data/repositories/adverts/adverts_repository.dart';
-import 'package:get_shop/core/models/advert_model.dart';
-import 'package:get_shop/core/network/exception_handler.dart';
+part of adverts_all;
 
 class AdvertsAllController extends GetxController {
   final AdvertsRepository _advertsRepository = Get.find();

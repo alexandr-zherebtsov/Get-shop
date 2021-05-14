@@ -1,5 +1,4 @@
-import 'package:get/get.dart';
-import 'package:get_shop/presentation/ui/splash/splash_controller.dart';
+part of binding;
 
 class SplashBinding extends Bindings {
   @override

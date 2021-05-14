@@ -4,8 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get_shop/common/localization.dart';
 import 'package:get_shop/common/theme_data.dart';
-import 'package:get_shop/presentation/binding/global_binding.dart';
-import 'package:get_shop/presentation/router/router.dart';
+import 'package:get_shop/presentation/binding/binding_imports.dart';
+import 'package:get_shop/presentation/router/router_imports.dart';
 
 Future<void> main() async {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);

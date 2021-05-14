@@ -1,5 +1,4 @@
-import 'package:get/get.dart';
-import 'package:get_shop/presentation/ui/login/login_controller.dart';
+part of binding;
 
 class LoginBinding extends Bindings {
   @override

@@ -1,9 +1,4 @@
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/core/utils/utils.dart';
-import 'package:get_shop/presentation/router/router.dart';
+part of splash;
 
 class SplashController extends GetxController {
   Rx<Color>? bgColor = AppColors.colorWhite.obs;

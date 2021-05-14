@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of widgets;
 
 Widget headline(String title, TextStyle? textStyle) {
   return Text(

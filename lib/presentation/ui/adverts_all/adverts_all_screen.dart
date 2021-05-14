@@ -1,12 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/assets_path.dart';
-import 'package:get_shop/common/localization.dart';
-import 'package:get_shop/presentation/ui/advert_item/advert_item.dart';
-import 'package:get_shop/presentation/ui/adverts_all/adverts_all_controller.dart';
-import 'package:get_shop/presentation/ui/widgets/behavior.dart';
-import 'package:get_shop/presentation/ui/widgets/exeption_screen.dart';
-import 'package:get_shop/presentation/ui/widgets/progress_screen.dart';
+part of adverts_all;
 
 class AdvertsAllScreen extends GetResponsiveView<AdvertsAllController> {
   @override

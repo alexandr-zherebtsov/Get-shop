@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/presentation/ui/widgets/headline.dart';
+part of widgets;
 
 Widget exceptionScreen({required String title, required String img, required bool isError, required ResponsiveScreen screen}) {
   return Center(

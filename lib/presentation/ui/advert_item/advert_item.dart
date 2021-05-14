@@ -1,13 +1,4 @@
-import 'package:decorated_icon/decorated_icon.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/assets_path.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/common/strings.dart';
-import 'package:get_shop/core/models/advert_model.dart';
-import 'package:get_shop/presentation/ui/advert_item/advert_controller.dart';
-import 'package:get_shop/presentation/ui/widgets/headline.dart';
-import 'package:get_shop/presentation/ui/widgets/price_item.dart';
+part of advert;
 
 class AdvertItem extends GetResponsiveView<AdvertItemController> {
   final AdvertModel e;

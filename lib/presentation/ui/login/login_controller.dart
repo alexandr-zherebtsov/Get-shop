@@ -1,13 +1,4 @@
-import 'dart:convert';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/common/localization.dart';
-import 'package:get_shop/core/data/repositories/auth/auth_repository.dart';
-import 'package:get_shop/core/network/exception_handler.dart';
-import 'package:get_shop/presentation/router/router.dart';
-import 'package:get_shop/presentation/ui/widgets/toast.dart';
+part of login;
 
 class LoginController extends GetxController {
   final AuthRepository _authRepository = Get.find();

@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+part of widgets;
 
 Widget unselectedNavBarIcon(IconData icon) {
   return Icon(icon, color: Get.theme.appBarTheme.iconTheme!.color, size: 27.0);

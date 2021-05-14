@@ -1,9 +1,4 @@
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/presentation/router/router.dart';
-import 'package:get_shop/presentation/ui/adverts_all/adverts_all_screen.dart';
-import 'package:get_shop/presentation/ui/profile/profile_screen.dart';
+part of main;
 
 class MainController extends GetxController {
   String? currentUid;

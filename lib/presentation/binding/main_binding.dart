@@ -1,7 +1,4 @@
-import 'package:get/get.dart';
-import 'package:get_shop/presentation/ui/adverts_all/adverts_all_controller.dart';
-import 'package:get_shop/presentation/ui/main/main_controller.dart';
-import 'package:get_shop/presentation/ui/profile/profile_controller.dart';
+part of binding;
 
 class MainBinding extends Bindings {
   @override

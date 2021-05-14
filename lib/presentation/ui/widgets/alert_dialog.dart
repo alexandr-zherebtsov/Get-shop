@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/common/localization.dart';
-import 'package:get_shop/common/styles.dart';
+part of widgets;
 
 Future<dynamic> showAlert(String headline, String title, void Function()? function, {isLogOut = false}) {
   return Get.dialog(

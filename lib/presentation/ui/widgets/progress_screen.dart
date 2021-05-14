@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+part of widgets;
 
 Widget progressScreen() {
   return Container(

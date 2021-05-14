@@ -1,10 +1,4 @@
-import 'package:get/get.dart';
-import 'package:get_shop/presentation/binding/login_binding.dart';
-import 'package:get_shop/presentation/binding/main_binding.dart';
-import 'package:get_shop/presentation/binding/splash_binding.dart';
-import 'package:get_shop/presentation/ui/login/login_screen.dart';
-import 'package:get_shop/presentation/ui/main/main_screen.dart';
-import 'package:get_shop/presentation/ui/splash/splash_screen.dart';
+part of router;
 
 class AppRoutes {
   static const String splash = '/splash';

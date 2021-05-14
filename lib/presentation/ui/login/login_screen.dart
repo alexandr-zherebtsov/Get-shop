@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/localization.dart';
-import 'package:get_shop/common/reg_exp.dart';
-import 'package:get_shop/presentation/ui/login/login_controller.dart';
-import 'package:get_shop/presentation/ui/widgets/behavior.dart';
-import 'package:get_shop/presentation/ui/widgets/main_button.dart';
+part of login;
 
 class LoginScreen extends GetResponsiveView<LoginController> {
   @override

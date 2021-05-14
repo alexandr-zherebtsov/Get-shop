@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/common/localization.dart';
-import 'package:get_shop/presentation/ui/main/main_controller.dart';
-import 'package:get_shop/presentation/ui/widgets/bottom_bar_icons.dart';
+part of main;
 
 class MainScreen extends GetResponsiveView<MainController> {
   @override

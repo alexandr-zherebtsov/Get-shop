@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/core/utils/utils.dart';
-import 'package:get_shop/presentation/ui/splash/splash_controller.dart';
-import 'package:get_shop/presentation/ui/splash/widgets/splash_progress.dart';
+part of splash;
 
 class SplashScreen extends GetResponsiveView<SplashController> {
   @override

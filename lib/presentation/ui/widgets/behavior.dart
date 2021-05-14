@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+part of widgets;
 
 class Behavior extends ScrollBehavior {
   @override

@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/assets_path.dart';
-import 'package:get_shop/common/colors.dart';
-import 'package:get_shop/presentation/ui/splash/splash_controller.dart';
+part of splash;
 
 class SplashProgress extends StatefulWidget {
   final Brightness? brightness;

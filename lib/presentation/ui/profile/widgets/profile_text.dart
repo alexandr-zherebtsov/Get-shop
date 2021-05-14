@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+part of profile;
 
 Widget profileText(String title, String text, ResponsiveScreen screen) {
   return Column(

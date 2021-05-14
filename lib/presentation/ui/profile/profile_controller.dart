@@ -1,12 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:get/get.dart';
-import 'package:get_shop/common/strings.dart';
-import 'package:get_shop/core/data/repositories/auth/auth_repository.dart';
-import 'package:get_shop/core/data/repositories/user/user_repository.dart';
-import 'package:get_shop/core/models/user_model.dart';
-import 'package:get_shop/presentation/router/router.dart';
-import 'package:url_launcher/url_launcher.dart';
+part of profile;
 
 class ProfileController extends GetxController {
   final AuthRepository _authRepository = Get.find();
