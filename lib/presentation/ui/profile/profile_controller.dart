@@ -13,15 +13,16 @@ class ProfileController extends GetxController {
     isLoading(true);
     currentUserUid = _fb.currentUser!.uid;
     DocumentSnapshot res = await _userRepository.getUser(uid);
+    Map<String, dynamic> data = res.data() as Map<String, dynamic>;
     user = UserModel(
-      id: res.data()![AppStrings.userModelId],
-      photo: res.data()![AppStrings.userModelPhoto],
-      name: res.data()![AppStrings.userModelName],
-      surname: res.data()![AppStrings.userModelSurname],
-      city: res.data()![AppStrings.userModelCity],
-      email: res.data()![AppStrings.userModelEmail],
-      phoneNumber: res.data()![AppStrings.userModelPhoneNumber],
-      aboutYourself: res.data()![AppStrings.userModelAboutYourself],
+      id: data[AppStrings.userModelId],
+      photo: data[AppStrings.userModelPhoto],
+      name: data[AppStrings.userModelName],
+      surname: data[AppStrings.userModelSurname],
+      city: data[AppStrings.userModelCity],
+      email: data[AppStrings.userModelEmail],
+      phoneNumber: data[AppStrings.userModelPhoneNumber],
+      aboutYourself: data[AppStrings.userModelAboutYourself],
     );
     isLoading(false);
   }

@@ -51,7 +51,11 @@ class AdvertItem extends GetResponsiveView<AdvertItemController> {
                           key: UniqueKey(),
                           loadingBuilder: (BuildContext context, Widget child, ImageChunkEvent? loadingProgress) {
                             if (loadingProgress == null) return child;
-                            return Center(child: CircularProgressIndicator());
+                            return Center(
+                              child: CircularProgressIndicator(
+                                valueColor: AlwaysStoppedAnimation<Color>(AppColors.colorLightGreen),
+                              ),
+                            );
                           },
                           fit: BoxFit.cover,
                           errorBuilder: (context, _, error) => Icon(

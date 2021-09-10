@@ -4,7 +4,9 @@ Widget progressScreen() {
   return Container(
     color: Get.theme.scaffoldBackgroundColor,
     child: Center(
-      child: CircularProgressIndicator(),
+      child: CircularProgressIndicator(
+        valueColor: AlwaysStoppedAnimation<Color>(AppColors.colorLightGreen),
+      ),
     ),
   );
 }

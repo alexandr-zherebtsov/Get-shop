@@ -11,31 +11,31 @@ dependencies:
     sdk: flutter
 
   # Core
-  get: ^4.1.4
+  get: ^4.3.8
   dio: ^4.0.0
   pretty_dio_logger: ^1.1.1
 
   # Firebase
-  firebase_core: ^1.1.0
-  firebase_auth: ^1.1.2
-  cloud_firestore: ^1.0.7
-  firebase_storage: ^8.0.5
+  firebase_core: ^1.6.0
+  firebase_auth: ^3.1.1
+  cloud_firestore: ^2.5.2
+  firebase_storage: ^10.0.3
 
   # Utils
-  url_launcher: ^6.0.3
+  url_launcher: ^6.0.10
 
   # UI
-  animations: ^2.0.0
+  animations: ^2.0.1
   fluttertoast: ^8.0.6
   carousel_pro: ^1.0.0
-  decorated_icon: ^1.2.0
-  cupertino_icons: ^1.0.2
-  mask_text_input_formatter: ^2.0.0-nullsafety.2
+  decorated_icon: ^1.2.1
+  cupertino_icons: ^1.0.3
+  mask_text_input_formatter: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_launcher_icons: ^0.9.0
+  flutter_launcher_icons: ^0.9.2
 
 flutter_icons:
   ios: true

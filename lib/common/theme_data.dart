@@ -16,8 +16,7 @@ class AppThemeData {
       headline4: const TextStyle(color: AppColors.colorWhite),
       headline3: const TextStyle(color: AppColors.colorWhite, fontSize: 18, fontWeight: FontWeight.w400),
       headline2: const TextStyle(color: AppColors.colorWhite, fontSize: 22, fontWeight: FontWeight.w400),
-      headline1: const TextStyle(
-          color: AppColors.colorWhite, fontSize: 24, fontWeight: FontWeight.w400),
+      headline1: const TextStyle(color: AppColors.colorWhite, fontSize: 24, fontWeight: FontWeight.w400),
       bodyText1: const TextStyle(color: AppColors.colorWhite, fontSize: 16, fontWeight: FontWeight.w400),
       bodyText2: TextStyle(color: AppColors.colorWhite.withOpacity(0.6), fontSize: 14),
     ),
@@ -42,6 +41,7 @@ class AppThemeData {
       color: AppColors.colorWhite,
     ),
     buttonColor: AppColors.colorLightGreen,
+    primarySwatch: AppColors.colorLightGreen,
     accentColor: AppColors.colorLightGreen,
     primaryColor: AppColors.colorBlackGray,
     scaffoldBackgroundColor: AppColors.colorMediumGray,

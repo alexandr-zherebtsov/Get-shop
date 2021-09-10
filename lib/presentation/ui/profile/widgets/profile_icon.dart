@@ -17,7 +17,11 @@ Widget profileIcon(ResponsiveScreen screen, String photo) {
         fit: BoxFit.cover,
         loadingBuilder: (BuildContext context, Widget child, ImageChunkEvent? loadingProgress) {
           if (loadingProgress == null) return child;
-          return Center(child: CircularProgressIndicator());
+          return Center(
+            child: CircularProgressIndicator(
+             valueColor: AlwaysStoppedAnimation<Color>(AppColors.colorLightGreen),
+           ),
+          );
         },
         errorBuilder: (context, _, error) => Icon(
           Icons.error_outline,
